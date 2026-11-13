@@ -15,7 +15,6 @@
     position: relative;
   }
 
-  /* 小提示文字 */
   .hint {
     position: fixed;
     top: 30px;
@@ -27,7 +26,6 @@
     letter-spacing: 2px;
   }
 
-  /* 计数器 */
   .counter {
     position: fixed;
     top: 70px;
@@ -38,7 +36,6 @@
     z-index: 10;
   }
 
-  /* 小满天星背景 */
   .tiny-star {
     position: absolute;
     width: 4px;
@@ -54,7 +51,6 @@
     100% { opacity: 0.9; transform: scale(1.3); }
   }
 
-  /* 可点击的大花 */
   .big-flower {
     position: absolute;
     width: 80px;
@@ -75,13 +71,11 @@
     transform: scale(0);
   }
 
-  /* 大花用SVG画 */
   .big-flower svg {
     width: 100%;
     height: 100%;
   }
 
-  /* 浮现的文字 */
   .float-text {
     position: absolute;
     color: white;
@@ -102,7 +96,6 @@
     100% { opacity: 0; transform: translateY(-30px); }
   }
 
-  /* 最终惊喜页遮罩 */
   .surprise-overlay {
     position: fixed;
     top: 0; left: 0;
@@ -158,7 +151,7 @@
     margin-bottom: 10px;
   }
 
-  /* 照片区域（可选） */
+  /* 照片区域 */
   .photo-area {
     width: 100%;
     margin: 15px 0;
@@ -203,12 +196,13 @@
   <div class="surprise-box">
     <div class="emoji">💐</div>
     <h2>我们仨，永远是最好的朋友</h2>
+    
+    <!-- 照片区域，注意这里已经写好了，没有任何空格 -->
     <div class="photo-area">
       < img src="mmexport1794560052908.jpg" alt="我们的合照">
       < img src="mmexport1794560077773.jpg" alt="我们的合照">
     </div>
-      这里可以放你们的合照哦
-    </div>
+
     <p>这是我亲手做的小惊喜，送给我们仨。<br>不管以后走到哪里，<br>我们永远是最好的朋友 🌸</p >
   </div>
 </div>
